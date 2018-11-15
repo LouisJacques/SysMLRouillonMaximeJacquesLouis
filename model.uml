@@ -21,6 +21,9 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_iVNWcOjyEei6YcZqZ21oKA" name="PrixConsoElec"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_iVNWcejyEei6YcZqZ21oKA" name="PrévisionsSemaine"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_iVN9gOjyEei6YcZqZ21oKA" name="Humidité"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rmF2gOjzEei5zpVwH0izQQ" name="Block2"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_vompsOjzEei5zpVwH0izQQ" name="Block3"/>
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_1XTR4OjzEei5zpVwH0izQQ" name="Interaction1"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_z1AzQONiEei4jaA4gTAUQw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z1FrwONiEei4jaA4gTAUQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -94,4 +97,6 @@
   <Requirements:Requirement xmi:id="_iVitoOjyEei6YcZqZ21oKA" base_Class="_iVLhQOjyEei6YcZqZ21oKA" text="Alfred doit pouvoir mesurer la production électrique de la maison"/>
   <Requirements:Requirement xmi:id="_iVitoejyEei6YcZqZ21oKA" base_Class="_iVN9gOjyEei6YcZqZ21oKA" text="Alfred doit pouvoir mesurer l'humidité dans la maison"/>
   <Requirements:Requirement xmi:id="_iVjUsOjyEei6YcZqZ21oKA" base_Class="_iVMvYejyEei6YcZqZ21oKA" text="Alfred doit pouvoir mesurer le taux de CO2 présent dans la maison"/>
+  <Blocks:Block xmi:id="_rmTR4OjzEei5zpVwH0izQQ" base_Class="_rmF2gOjzEei5zpVwH0izQQ"/>
+  <Blocks:Block xmi:id="_vozeAOjzEei5zpVwH0izQQ" base_Class="_vompsOjzEei5zpVwH0izQQ"/>
 </xmi:XMI>
