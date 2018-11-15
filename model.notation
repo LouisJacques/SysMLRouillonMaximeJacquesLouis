@@ -35,7 +35,7 @@
       <element xmi:type="uml:Actor" href="model.uml#_OrBQUOjdEeikffRf6AylkQ"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OrDFgejdEeikffRf6AylkQ" x="343" y="184"/>
     </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_z_PtUeNiEei4jaA4gTAUQw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_z_PtUeNiEei4jaA4gTAUQw" name="diagram_compatibility_version" stringValue="1.2.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_z_PtUuNiEei4jaA4gTAUQw"/>
     <styles xmi:type="style:PapyrusViewStyle" xmi:id="_z_PtU-NiEei4jaA4gTAUQw">
       <owner xmi:type="uml:Model" href="model.uml#_zxPtkONiEei4jaA4gTAUQw"/>
@@ -78,7 +78,7 @@
       <element xsi:nil="true"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2_-ct-jvEei6YcZqZ21oKA" x="492" y="132"/>
     </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_pFiAQejdEeizX7ayGSuUQA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_pFiAQejdEeizX7ayGSuUQA" name="diagram_compatibility_version" stringValue="1.2.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_pFiAQujdEeizX7ayGSuUQA"/>
     <styles xmi:type="style:PapyrusViewStyle" xmi:id="_pFiAQ-jdEeizX7ayGSuUQA">
       <owner xmi:type="uml:Model" href="model.uml#_zxPtkONiEei4jaA4gTAUQw"/>
@@ -131,7 +131,7 @@
       <element xsi:nil="true"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4KkAgujvEei6YcZqZ21oKA" x="751" y="286"/>
     </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_tyjD0ejvEei5zpVwH0izQQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_tyjD0ejvEei5zpVwH0izQQ" name="diagram_compatibility_version" stringValue="1.2.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_tyjD0ujvEei5zpVwH0izQQ"/>
     <styles xmi:type="style:PapyrusViewStyle" xmi:id="_tyjD0-jvEei5zpVwH0izQQ">
       <owner xmi:type="uml:Model" href="model.uml#_zxPtkONiEei4jaA4gTAUQw"/>
@@ -174,7 +174,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S4A6oejwEei6YcZqZ21oKA"/>
       </children>
       <element xmi:type="uml:Class" href="model.uml#_S37bAOjwEei6YcZqZ21oKA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S4ATgejwEei6YcZqZ21oKA" x="647" y="254"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S4ATgejwEei6YcZqZ21oKA" x="500" y="257"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_S4D94-jwEei6YcZqZ21oKA" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_S4D95OjwEei6YcZqZ21oKA"/>
@@ -184,11 +184,8 @@
       <element xsi:nil="true"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_S4D95ejwEei6YcZqZ21oKA" x="200"/>
     </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_PzD70ejwEei6YcZqZ21oKA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_PzD70ejwEei6YcZqZ21oKA" name="diagram_compatibility_version" stringValue="1.2.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_PzD70ujwEei6YcZqZ21oKA"/>
-    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_PzD70-jwEei6YcZqZ21oKA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.requirement">
-      <owner xmi:type="uml:Model" href="model.uml#_zxPtkONiEei4jaA4gTAUQw"/>
-    </styles>
     <element xmi:type="uml:Model" href="model.uml#_zxPtkONiEei4jaA4gTAUQw"/>
     <edges xmi:type="notation:Connector" xmi:id="_S4D95-jwEei6YcZqZ21oKA" type="StereotypeCommentLink" source="_S4ATgOjwEei6YcZqZ21oKA" target="_S4D94-jwEei6YcZqZ21oKA">
       <styles xmi:type="notation:FontStyle" xmi:id="_S4D96OjwEei6YcZqZ21oKA"/>
@@ -200,5 +197,8 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S4D96ujwEei6YcZqZ21oKA"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_S4D96-jwEei6YcZqZ21oKA"/>
     </edges>
+    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_PzD70-jwEei6YcZqZ21oKA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.requirement">
+      <owner xmi:type="uml:Model" href="model.uml#_zxPtkONiEei4jaA4gTAUQw"/>
+    </styles>
   </notation:Diagram>
 </xmi:XMI>
