@@ -11,6 +11,7 @@
     <packagedElement xmi:type="uml:Actor" xmi:id="_OrBQUOjdEeikffRf6AylkQ" name="Actor1"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_qaiEUOjdEeizX7ayGSuUQA" name="Block1"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_vcsRcOjvEei5zpVwH0izQQ" name="Requirement1"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_S37bAOjwEei6YcZqZ21oKA" name="TEt"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_z1AzQONiEei4jaA4gTAUQw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z1FrwONiEei4jaA4gTAUQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -74,4 +75,5 @@
   </uml:Model>
   <Blocks:Block xmi:id="_qjOtUOjdEeizX7ayGSuUQA" base_Class="_qaiEUOjdEeizX7ayGSuUQA"/>
   <Requirements:Requirement xmi:id="_vlnj8OjvEei5zpVwH0izQQ" base_Class="_vcsRcOjvEei5zpVwH0izQQ" id="55"/>
+  <Requirements:Requirement xmi:id="_S3_FYOjwEei6YcZqZ21oKA" base_Class="_S37bAOjwEei6YcZqZ21oKA" id="666" text="999"/>
 </xmi:XMI>
