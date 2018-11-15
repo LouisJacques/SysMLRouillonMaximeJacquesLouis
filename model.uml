@@ -12,6 +12,15 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_qaiEUOjdEeizX7ayGSuUQA" name="Block1"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_vcsRcOjvEei5zpVwH0izQQ" name="Requirement1"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_S37bAOjwEei6YcZqZ21oKA" name="TEt"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_iVK6MOjyEei6YcZqZ21oKA" name="QualitéAir"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_iVLhQOjyEei6YcZqZ21oKA" name="ProdElec"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_iVMIUOjyEei6YcZqZ21oKA" name="Alertes"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_iVMIUejyEei6YcZqZ21oKA" name="PrévisionsJournée"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_iVMvYOjyEei6YcZqZ21oKA" name="Tempérarure"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_iVMvYejyEei6YcZqZ21oKA" name="TauxCO2"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_iVNWcOjyEei6YcZqZ21oKA" name="PrixConsoElec"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_iVNWcejyEei6YcZqZ21oKA" name="PrévisionsSemaine"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_iVN9gOjyEei6YcZqZ21oKA" name="Humidité"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_z1AzQONiEei4jaA4gTAUQw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z1FrwONiEei4jaA4gTAUQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -76,4 +85,13 @@
   <Blocks:Block xmi:id="_qjOtUOjdEeizX7ayGSuUQA" base_Class="_qaiEUOjdEeizX7ayGSuUQA"/>
   <Requirements:Requirement xmi:id="_vlnj8OjvEei5zpVwH0izQQ" base_Class="_vcsRcOjvEei5zpVwH0izQQ" id="55"/>
   <Requirements:Requirement xmi:id="_S3_FYOjwEei6YcZqZ21oKA" base_Class="_S37bAOjwEei6YcZqZ21oKA" id="666" text="999"/>
+  <Requirements:Requirement xmi:id="_iVfDQOjyEei6YcZqZ21oKA" base_Class="_iVMIUejyEei6YcZqZ21oKA" text="Alfred doit pouvoir afficher des prévisions pour la journée"/>
+  <Requirements:Requirement xmi:id="_iVfqUOjyEei6YcZqZ21oKA" base_Class="_iVNWcOjyEei6YcZqZ21oKA" text="Alfred doit pouvoir calculer le prix de la consommation électrique de la maison "/>
+  <Requirements:Requirement xmi:id="_iVgRYOjyEei6YcZqZ21oKA" base_Class="_iVNWcejyEei6YcZqZ21oKA" text="Alfred doit pouvoir afficher les prévisions pour la semaine"/>
+  <Requirements:Requirement xmi:id="_iVg4cOjyEei6YcZqZ21oKA" base_Class="_iVMvYOjyEei6YcZqZ21oKA" text="Alfred doit pouvoir mesurer la température dans la maison&#xA;"/>
+  <Requirements:Requirement xmi:id="_iVhfgOjyEei6YcZqZ21oKA" base_Class="_iVMIUOjyEei6YcZqZ21oKA" text="Alfred doit pouvoir afficher des alertes"/>
+  <Requirements:Requirement xmi:id="_iViGkOjyEei6YcZqZ21oKA" base_Class="_iVK6MOjyEei6YcZqZ21oKA" text="Alfred doit pouvoir afficher la qualité de l'air"/>
+  <Requirements:Requirement xmi:id="_iVitoOjyEei6YcZqZ21oKA" base_Class="_iVLhQOjyEei6YcZqZ21oKA" text="Alfred doit pouvoir mesurer la production électrique de la maison"/>
+  <Requirements:Requirement xmi:id="_iVitoejyEei6YcZqZ21oKA" base_Class="_iVN9gOjyEei6YcZqZ21oKA" text="Alfred doit pouvoir mesurer l'humidité dans la maison"/>
+  <Requirements:Requirement xmi:id="_iVjUsOjyEei6YcZqZ21oKA" base_Class="_iVMvYejyEei6YcZqZ21oKA" text="Alfred doit pouvoir mesurer le taux de CO2 présent dans la maison"/>
 </xmi:XMI>
