@@ -696,6 +696,19 @@
           <element xmi:type="uml:UseCase" href="model.uml#_2kGCcO5UEeiOyf16n9zU9g"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2kJFwe5UEeiOyf16n9zU9g" x="-46" y="29" height="82"/>
         </children>
+        <children xmi:type="notation:Shape" xmi:id="_CCh_MO5WEeiOyf16n9zU9g" type="UseCase_Shape_CN">
+          <children xmi:type="notation:DecorationNode" xmi:id="_CCimQO5WEeiOyf16n9zU9g" type="UseCase_NameLabel_CN"/>
+          <children xmi:type="notation:DecorationNode" xmi:id="_CCimQe5WEeiOyf16n9zU9g" type="UseCase_FloatingNameLabel_CN">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_CCimQu5WEeiOyf16n9zU9g" y="5"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_CCimQ-5WEeiOyf16n9zU9g" type="UseCase_ExtensionPointCompartment_CN">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_CCimRO5WEeiOyf16n9zU9g"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_CCimRe5WEeiOyf16n9zU9g"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CCimRu5WEeiOyf16n9zU9g"/>
+          </children>
+          <element xmi:type="uml:UseCase" href="model.uml#_CCdGsO5WEeiOyf16n9zU9g"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CCh_Me5WEeiOyf16n9zU9g" x="-53" y="221"/>
+        </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6Rx1Ie5UEeiOyf16n9zU9g"/>
       </children>
       <styles xmi:type="notation:HintedDiagramLinkStyle" xmi:id="_6RxOEe5UEeiOyf16n9zU9g"/>
