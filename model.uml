@@ -24,7 +24,7 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_rmF2gOjzEei5zpVwH0izQQ" name="Block2"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_vompsOjzEei5zpVwH0izQQ" name="Block3"/>
     <packagedElement xmi:type="uml:Interaction" xmi:id="_1XTR4OjzEei5zpVwH0izQQ" name="Interaction1"/>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_bZeEMO5UEeiOyf16n9zU9g" name="Alfred"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_bZeEMO5UEeiOyf16n9zU9g" name="Utilisateur"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_5sUXoO5UEeiOyf16n9zU9g" memberEnd="_5saeQO5UEeiOyf16n9zU9g _5sbFUO5UEeiOyf16n9zU9g">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5sYCAO5UEeiOyf16n9zU9g" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5sYCAe5UEeiOyf16n9zU9g" key="nature" value="UML_Nature"/>
@@ -32,9 +32,16 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_5saeQO5UEeiOyf16n9zU9g" name="afficher l'état de santé de la maison " type="_2kGCcO5UEeiOyf16n9zU9g" association="_5sUXoO5UEeiOyf16n9zU9g"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_5sbFUO5UEeiOyf16n9zU9g" name="alfred" type="_bZeEMO5UEeiOyf16n9zU9g" association="_5sUXoO5UEeiOyf16n9zU9g"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_6RuKwO5UEeiOyf16n9zU9g" name="Package1">
+    <packagedElement xmi:type="uml:Package" xmi:id="_6RuKwO5UEeiOyf16n9zU9g" name="AlfredCase">
       <packagedElement xmi:type="uml:UseCase" xmi:id="_2kGCcO5UEeiOyf16n9zU9g" name="Afficher l'état de santé de la maison "/>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_CCdGsO5WEeiOyf16n9zU9g" name="Afficher les informations sur les smartphones des habitants"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_XVXt4O5aEeiOyf16n9zU9g" name="Afficher la temperature"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_Zoni4O5aEeiOyf16n9zU9g" name="Afficher l'humidité"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_dw5m4O5aEeiOyf16n9zU9g" name="Afficher le taux de CO2"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_udrtQO5aEeiOyf16n9zU9g" name="Afficher le taux de COV"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_xKgf4O5aEeiOyf16n9zU9g" name="Afficher la consolomation electrique de la maison "/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_5wPmoO5aEeiOyf16n9zU9g" name="Afficher la production electrique de la maison "/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="___fXIO5aEeiOyf16n9zU9g" name="Afficher la quantité d'au restante"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_GIFGAO5bEeiOyf16n9zU9g" name="Afficher ratio consommation/production électrique"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_2dBUoO5VEei-e6YrClflkw" name="Requirement33"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_z1AzQONiEei4jaA4gTAUQw">
