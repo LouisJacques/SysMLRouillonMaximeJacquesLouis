@@ -36,6 +36,7 @@
       <packagedElement xmi:type="uml:UseCase" xmi:id="_2kGCcO5UEeiOyf16n9zU9g" name="Afficher l'état de santé de la maison "/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_CCdGsO5WEeiOyf16n9zU9g" name="Afficher les informations sur les smartphones des habitants"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2dBUoO5VEei-e6YrClflkw" name="Requirement33"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_z1AzQONiEei4jaA4gTAUQw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z1FrwONiEei4jaA4gTAUQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -111,4 +112,5 @@
   <Requirements:Requirement xmi:id="_iVjUsOjyEei6YcZqZ21oKA" base_Class="_iVMvYejyEei6YcZqZ21oKA" text="Alfred doit pouvoir mesurer le taux de CO2 présent dans la maison"/>
   <Blocks:Block xmi:id="_rmTR4OjzEei5zpVwH0izQQ" base_Class="_rmF2gOjzEei5zpVwH0izQQ"/>
   <Blocks:Block xmi:id="_vozeAOjzEei5zpVwH0izQQ" base_Class="_vompsOjzEei5zpVwH0izQQ"/>
+  <Requirements:Requirement xmi:id="_2dP-IO5VEei-e6YrClflkw" base_Class="_2dBUoO5VEei-e6YrClflkw"/>
 </xmi:XMI>
