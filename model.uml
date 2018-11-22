@@ -33,7 +33,16 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_5sbFUO5UEeiOyf16n9zU9g" name="alfred" type="_bZeEMO5UEeiOyf16n9zU9g" association="_5sUXoO5UEeiOyf16n9zU9g"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_6RuKwO5UEeiOyf16n9zU9g" name="AlfredCase">
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_2kGCcO5UEeiOyf16n9zU9g" name="Afficher l'état de santé de la maison "/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_2kGCcO5UEeiOyf16n9zU9g" name="Afficher l'état de santé de la maison ">
+        <include xmi:type="uml:Include" xmi:id="_jcKEEO5bEeiOyf16n9zU9g" addition="_XVXt4O5aEeiOyf16n9zU9g"/>
+        <include xmi:type="uml:Include" xmi:id="_kYV_gO5bEeiOyf16n9zU9g" addition="_Zoni4O5aEeiOyf16n9zU9g"/>
+        <include xmi:type="uml:Include" xmi:id="_kvdfAO5bEeiOyf16n9zU9g" addition="_dw5m4O5aEeiOyf16n9zU9g"/>
+        <include xmi:type="uml:Include" xmi:id="_lOs_wO5bEeiOyf16n9zU9g" addition="_udrtQO5aEeiOyf16n9zU9g"/>
+        <include xmi:type="uml:Include" xmi:id="_lxFUEO5bEeiOyf16n9zU9g" addition="_xKgf4O5aEeiOyf16n9zU9g"/>
+        <include xmi:type="uml:Include" xmi:id="_mLW1QO5bEeiOyf16n9zU9g" addition="_5wPmoO5aEeiOyf16n9zU9g"/>
+        <include xmi:type="uml:Include" xmi:id="_myqF0O5bEeiOyf16n9zU9g" addition="___fXIO5aEeiOyf16n9zU9g"/>
+        <include xmi:type="uml:Include" xmi:id="_na8N0O5bEeiOyf16n9zU9g" addition="_GIFGAO5bEeiOyf16n9zU9g"/>
+      </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_XVXt4O5aEeiOyf16n9zU9g" name="Afficher la temperature"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_Zoni4O5aEeiOyf16n9zU9g" name="Afficher l'humidité"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_dw5m4O5aEeiOyf16n9zU9g" name="Afficher le taux de CO2"/>
