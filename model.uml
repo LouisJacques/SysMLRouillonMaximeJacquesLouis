@@ -22,13 +22,15 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_iVNWcejyEei6YcZqZ21oKA" name="PrévisionsSemaine"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_iVN9gOjyEei6YcZqZ21oKA" name="Humidité"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_rmF2gOjzEei5zpVwH0izQQ" name="CaptorsSubSystem">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_o5YvQPjDEeiaJdi8hvsWCQ" name="ClassifierBehaviorProperty1"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_xaU1kPjDEeiaJdi8hvsWCQ" name="HeatCaptor" type="_zv93QPjDEeiaJdi8hvsWCQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_XmsC8PjEEeiaJdi8hvsWCQ" name="Co2Captor" type="_Y5CboPjEEeiaJdi8hvsWCQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_d7FZMPjEEeiaJdi8hvsWCQ" name="Attribute1" type="_itszoPjEEeiaJdi8hvsWCQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_vompsOjzEei5zpVwH0izQQ" name="Block3"/>
     <packagedElement xmi:type="uml:Interaction" xmi:id="_1XTR4OjzEei5zpVwH0izQQ" name="Interaction1"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_bZeEMO5UEeiOyf16n9zU9g" name="Utilisateur"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_6RuKwO5UEeiOyf16n9zU9g" name="AlfredCase">
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_XVXt4O5aEeiOyf16n9zU9g" name="Consulter la température"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_XVXt4O5aEeiOyf16n9zU9g" name="Consulter la température" subject="_zv93QPjDEeiaJdi8hvsWCQ"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_Zoni4O5aEeiOyf16n9zU9g" name="Consulter l'humidité"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_dw5m4O5aEeiOyf16n9zU9g" name="Consulter le taux de CO2"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_udrtQO5aEeiOyf16n9zU9g" name="Consulter le taux de COV"/>
@@ -119,6 +121,9 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_YWNQ0fjDEeiaJdi8hvsWCQ" name="alfred" type="_pWdiQPjCEeiaJdi8hvsWCQ" association="_YWMpwPjDEeiaJdi8hvsWCQ"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_zv93QPjDEeiaJdi8hvsWCQ" name="Actor2" useCase="_XVXt4O5aEeiOyf16n9zU9g"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_Y5CboPjEEeiaJdi8hvsWCQ" name="Co2Captor"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_itszoPjEEeiaJdi8hvsWCQ" name="CoVCaptor"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_z1AzQONiEei4jaA4gTAUQw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z1FrwONiEei4jaA4gTAUQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -200,5 +205,4 @@
   <Blocks:Block xmi:id="_BeqRUPjDEeiaJdi8hvsWCQ" base_Class="_BeeEEPjDEeiaJdi8hvsWCQ"/>
   <Blocks:Block xmi:id="_EdFKQPjDEeiaJdi8hvsWCQ" base_Class="_Ec-ckPjDEeiaJdi8hvsWCQ"/>
   <Blocks:Block xmi:id="_V1mVQPjDEeiaJdi8hvsWCQ" base_Class="_V1fAgPjDEeiaJdi8hvsWCQ"/>
-  <Blocks:ClassifierBehaviorProperty xmi:id="_o5fc8PjDEeiaJdi8hvsWCQ" base_Property="_o5YvQPjDEeiaJdi8hvsWCQ"/>
 </xmi:XMI>
