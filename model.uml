@@ -21,7 +21,9 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_iVNWcOjyEei6YcZqZ21oKA" name="PrixConsoElec"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_iVNWcejyEei6YcZqZ21oKA" name="PrévisionsSemaine"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_iVN9gOjyEei6YcZqZ21oKA" name="Humidité"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_rmF2gOjzEei5zpVwH0izQQ" name="Block2"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rmF2gOjzEei5zpVwH0izQQ" name="CaptorsSubSystem">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_o5YvQPjDEeiaJdi8hvsWCQ" name="ClassifierBehaviorProperty1"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_vompsOjzEei5zpVwH0izQQ" name="Block3"/>
     <packagedElement xmi:type="uml:Interaction" xmi:id="_1XTR4OjzEei5zpVwH0izQQ" name="Interaction1"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_bZeEMO5UEeiOyf16n9zU9g" name="Utilisateur"/>
@@ -80,6 +82,42 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_WnNgAu5dEeiOyf16n9zU9g" name="consulter la quantité d'au restante" type="___fXIO5aEeiOyf16n9zU9g" association="_WnM48O5dEeiOyf16n9zU9g"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_WnNgA-5dEeiOyf16n9zU9g" name="consulter l'état de santé de la maison " type="_bZeEMO5UEeiOyf16n9zU9g" association="_WnM48O5dEeiOyf16n9zU9g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pWdiQPjCEeiaJdi8hvsWCQ" name="Alfred">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_MNvDIfjDEeiaJdi8hvsWCQ" name="captorssubsystem" type="_Ec-ckPjDEeiaJdi8hvsWCQ" aggregation="composite" association="_MNt1APjDEeiaJdi8hvsWCQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_MtqgYvjDEeiaJdi8hvsWCQ" name="powersubsystem" type="_BeeEEPjDEeiaJdi8hvsWCQ" aggregation="composite" association="_Mtp5UPjDEeiaJdi8hvsWCQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_NuE0gvjDEeiaJdi8hvsWCQ" name="displaysubsystem" type="_0oepEPjCEeiaJdi8hvsWCQ" aggregation="composite" association="_NuENcPjDEeiaJdi8hvsWCQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_YWNQ0PjDEeiaJdi8hvsWCQ" name="soundalertsubsystem" type="_V1fAgPjDEeiaJdi8hvsWCQ" aggregation="composite" association="_YWMpwPjDEeiaJdi8hvsWCQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_0oepEPjCEeiaJdi8hvsWCQ" name="DisplaySubSystem"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BeeEEPjDEeiaJdi8hvsWCQ" name="PowerSubSystem"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Ec-ckPjDEeiaJdi8hvsWCQ" name="CaptorsSubSystem">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_JeaWIfjDEeiaJdi8hvsWCQ" name="alfred" type="_pWdiQPjCEeiaJdi8hvsWCQ" aggregation="composite"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_MNt1APjDEeiaJdi8hvsWCQ" memberEnd="_MNvDIfjDEeiaJdi8hvsWCQ _MNvqMPjDEeiaJdi8hvsWCQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MNucEPjDEeiaJdi8hvsWCQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MNvDIPjDEeiaJdi8hvsWCQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_MNvqMPjDEeiaJdi8hvsWCQ" name="alfred" type="_pWdiQPjCEeiaJdi8hvsWCQ" association="_MNt1APjDEeiaJdi8hvsWCQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Mtp5UPjDEeiaJdi8hvsWCQ" memberEnd="_MtqgYvjDEeiaJdi8hvsWCQ _MtqgY_jDEeiaJdi8hvsWCQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MtqgYPjDEeiaJdi8hvsWCQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MtqgYfjDEeiaJdi8hvsWCQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_MtqgY_jDEeiaJdi8hvsWCQ" name="alfred" type="_pWdiQPjCEeiaJdi8hvsWCQ" association="_Mtp5UPjDEeiaJdi8hvsWCQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_NuENcPjDEeiaJdi8hvsWCQ" memberEnd="_NuE0gvjDEeiaJdi8hvsWCQ _NuE0g_jDEeiaJdi8hvsWCQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NuE0gPjDEeiaJdi8hvsWCQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NuE0gfjDEeiaJdi8hvsWCQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_NuE0g_jDEeiaJdi8hvsWCQ" name="alfred" type="_pWdiQPjCEeiaJdi8hvsWCQ" association="_NuENcPjDEeiaJdi8hvsWCQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_V1fAgPjDEeiaJdi8hvsWCQ" name="SoundAlertSubSystem"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_YWMpwPjDEeiaJdi8hvsWCQ" memberEnd="_YWNQ0PjDEeiaJdi8hvsWCQ _YWNQ0fjDEeiaJdi8hvsWCQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YWMpwfjDEeiaJdi8hvsWCQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YWMpwvjDEeiaJdi8hvsWCQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_YWNQ0fjDEeiaJdi8hvsWCQ" name="alfred" type="_pWdiQPjCEeiaJdi8hvsWCQ" association="_YWMpwPjDEeiaJdi8hvsWCQ"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_z1AzQONiEei4jaA4gTAUQw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z1FrwONiEei4jaA4gTAUQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -157,4 +195,10 @@
   <Blocks:Block xmi:id="_rmTR4OjzEei5zpVwH0izQQ" base_Class="_rmF2gOjzEei5zpVwH0izQQ"/>
   <Blocks:Block xmi:id="_vozeAOjzEei5zpVwH0izQQ" base_Class="_vompsOjzEei5zpVwH0izQQ"/>
   <Requirements:Requirement xmi:id="_2dP-IO5VEei-e6YrClflkw" base_Class="_2dBUoO5VEei-e6YrClflkw"/>
+  <Blocks:Block xmi:id="_pimg0PjCEeiaJdi8hvsWCQ" base_Class="_pWdiQPjCEeiaJdi8hvsWCQ"/>
+  <Blocks:Block xmi:id="_0omk4PjCEeiaJdi8hvsWCQ" base_Class="_0oepEPjCEeiaJdi8hvsWCQ"/>
+  <Blocks:Block xmi:id="_BeqRUPjDEeiaJdi8hvsWCQ" base_Class="_BeeEEPjDEeiaJdi8hvsWCQ"/>
+  <Blocks:Block xmi:id="_EdFKQPjDEeiaJdi8hvsWCQ" base_Class="_Ec-ckPjDEeiaJdi8hvsWCQ"/>
+  <Blocks:Block xmi:id="_V1mVQPjDEeiaJdi8hvsWCQ" base_Class="_V1fAgPjDEeiaJdi8hvsWCQ"/>
+  <Blocks:ClassifierBehaviorProperty xmi:id="_o5fc8PjDEeiaJdi8hvsWCQ" base_Property="_o5YvQPjDEeiaJdi8hvsWCQ"/>
 </xmi:XMI>
