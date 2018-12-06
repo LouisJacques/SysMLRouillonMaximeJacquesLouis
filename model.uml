@@ -22,11 +22,11 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_iVNWcejyEei6YcZqZ21oKA" name="PrévisionsSemaine"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_iVN9gOjyEei6YcZqZ21oKA" name="Humidité"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_rmF2gOjzEei5zpVwH0izQQ" name="CaptorsSubSystem">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_xaU1kPjDEeiaJdi8hvsWCQ" name="HeatCaptor" type="_zv93QPjDEeiaJdi8hvsWCQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_XmsC8PjEEeiaJdi8hvsWCQ" name="Co2Captor" type="_Y5CboPjEEeiaJdi8hvsWCQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_d7FZMPjEEeiaJdi8hvsWCQ" name="Attribute1" type="_itszoPjEEeiaJdi8hvsWCQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_-wjvgPjGEeiaJdi8hvsWCQ" name="Attribute2" type="_A0vNwPjHEeiaJdi8hvsWCQ"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_BaDhUPjHEeiaJdi8hvsWCQ" name="Attribute3" type="_Cs_I0PjHEeiaJdi8hvsWCQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_xaU1kPjDEeiaJdi8hvsWCQ" name="HeatCaptor1" type="_zv93QPjDEeiaJdi8hvsWCQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_XmsC8PjEEeiaJdi8hvsWCQ" name="Co2Captor1" type="_Y5CboPjEEeiaJdi8hvsWCQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_d7FZMPjEEeiaJdi8hvsWCQ" name="COVCaptor1" type="_itszoPjEEeiaJdi8hvsWCQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_-wjvgPjGEeiaJdi8hvsWCQ" name="ElectricProdCaptor1" type="_A0vNwPjHEeiaJdi8hvsWCQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_BaDhUPjHEeiaJdi8hvsWCQ" name="ElectricConsoCaptor1" type="_Cs_I0PjHEeiaJdi8hvsWCQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_vompsOjzEei5zpVwH0izQQ" name="Block3"/>
     <packagedElement xmi:type="uml:Interaction" xmi:id="_1XTR4OjzEei5zpVwH0izQQ" name="Interaction1"/>
@@ -94,9 +94,14 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_YWNQ0PjDEeiaJdi8hvsWCQ" name="soundalertsubsystem" type="_V1fAgPjDEeiaJdi8hvsWCQ" aggregation="composite" association="_YWMpwPjDEeiaJdi8hvsWCQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_0oepEPjCEeiaJdi8hvsWCQ" name="DisplaySubSystem"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_BeeEEPjDEeiaJdi8hvsWCQ" name="PowerSubSystem"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BeeEEPjDEeiaJdi8hvsWCQ" name="PowerSubSystem" visibility="public"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_Ec-ckPjDEeiaJdi8hvsWCQ" name="CaptorsSubSystem">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_JeaWIfjDEeiaJdi8hvsWCQ" name="alfred" type="_pWdiQPjCEeiaJdi8hvsWCQ" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_VBcWAPknEeiTcYU69R5pgw" name="covcaptor" type="_SGXE8PknEeiTcYU69R5pgw" aggregation="composite" association="_VBag0PknEeiTcYU69R5pgw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ViiQ4_knEeiTcYU69R5pgw" name="co2captor" type="_QOK0QPknEeiTcYU69R5pgw" aggregation="composite" association="_ViiQ4PknEeiTcYU69R5pgw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_WDPxQ_knEeiTcYU69R5pgw" name="heatcaptor" type="_OXRkEPknEeiTcYU69R5pgw" aggregation="composite" association="_WDPxQPknEeiTcYU69R5pgw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_yAwlAPknEeiTcYU69R5pgw" name="electricprodcaptor" type="_eUenoPknEeiTcYU69R5pgw" aggregation="composite" association="_yAuv0PknEeiTcYU69R5pgw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ypqYEvknEeiTcYU69R5pgw" name="electricconsocaptor" type="_lyZKsPknEeiTcYU69R5pgw" aggregation="composite" association="_yppJ8PknEeiTcYU69R5pgw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_MNt1APjDEeiaJdi8hvsWCQ" memberEnd="_MNvDIfjDEeiaJdi8hvsWCQ _MNvqMPjDEeiaJdi8hvsWCQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MNucEPjDEeiaJdi8hvsWCQ" source="org.eclipse.papyrus">
@@ -123,11 +128,46 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_YWNQ0fjDEeiaJdi8hvsWCQ" name="alfred" type="_pWdiQPjCEeiaJdi8hvsWCQ" association="_YWMpwPjDEeiaJdi8hvsWCQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_zv93QPjDEeiaJdi8hvsWCQ" name="Actor2" useCase="_XVXt4O5aEeiOyf16n9zU9g"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_zv93QPjDEeiaJdi8hvsWCQ" name="HeatCaptor" useCase="_XVXt4O5aEeiOyf16n9zU9g"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_Y5CboPjEEeiaJdi8hvsWCQ" name="Co2Captor" useCase="_dw5m4O5aEeiOyf16n9zU9g"/>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_itszoPjEEeiaJdi8hvsWCQ" name="CoVCaptor" useCase="_udrtQO5aEeiOyf16n9zU9g"/>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_A0vNwPjHEeiaJdi8hvsWCQ" name="ElectricityProdCaptor" useCase="_5wPmoO5aEeiOyf16n9zU9g"/>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_Cs_I0PjHEeiaJdi8hvsWCQ" name="ElectricityConsoCaptor" useCase="_xKgf4O5aEeiOyf16n9zU9g"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_itszoPjEEeiaJdi8hvsWCQ" name="COVCaptor" useCase="_udrtQO5aEeiOyf16n9zU9g"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_A0vNwPjHEeiaJdi8hvsWCQ" name="ElectricProdCaptor" useCase="_5wPmoO5aEeiOyf16n9zU9g"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_Cs_I0PjHEeiaJdi8hvsWCQ" name="ElectricConsoCaptor" useCase="_xKgf4O5aEeiOyf16n9zU9g"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OXRkEPknEeiTcYU69R5pgw" name="HeatCaptor"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QOK0QPknEeiTcYU69R5pgw" name="CO2Captor"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_SGXE8PknEeiTcYU69R5pgw" name="COVCaptor"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_VBag0PknEeiTcYU69R5pgw" memberEnd="_VBcWAPknEeiTcYU69R5pgw _VBc9EPknEeiTcYU69R5pgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VBbu8PknEeiTcYU69R5pgw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VBbu8fknEeiTcYU69R5pgw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_VBc9EPknEeiTcYU69R5pgw" name="captorssubsystem" type="_Ec-ckPjDEeiaJdi8hvsWCQ" association="_VBag0PknEeiTcYU69R5pgw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ViiQ4PknEeiTcYU69R5pgw" memberEnd="_ViiQ4_knEeiTcYU69R5pgw _Vii38PknEeiTcYU69R5pgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ViiQ4fknEeiTcYU69R5pgw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ViiQ4vknEeiTcYU69R5pgw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Vii38PknEeiTcYU69R5pgw" name="captorssubsystem" type="_Ec-ckPjDEeiaJdi8hvsWCQ" association="_ViiQ4PknEeiTcYU69R5pgw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WDPxQPknEeiTcYU69R5pgw" memberEnd="_WDPxQ_knEeiTcYU69R5pgw _WDQYUPknEeiTcYU69R5pgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WDPxQfknEeiTcYU69R5pgw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WDPxQvknEeiTcYU69R5pgw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_WDQYUPknEeiTcYU69R5pgw" name="captorssubsystem" type="_Ec-ckPjDEeiaJdi8hvsWCQ" association="_WDPxQPknEeiTcYU69R5pgw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_eUenoPknEeiTcYU69R5pgw" name="ElectricProdCaptor"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lyZKsPknEeiTcYU69R5pgw" name="ElectricConsoCaptor"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_yAuv0PknEeiTcYU69R5pgw" memberEnd="_yAwlAPknEeiTcYU69R5pgw _yAxMEPknEeiTcYU69R5pgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yAvW4PknEeiTcYU69R5pgw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yAv98PknEeiTcYU69R5pgw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_yAxMEPknEeiTcYU69R5pgw" name="captorssubsystem" type="_Ec-ckPjDEeiaJdi8hvsWCQ" association="_yAuv0PknEeiTcYU69R5pgw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_yppJ8PknEeiTcYU69R5pgw" memberEnd="_ypqYEvknEeiTcYU69R5pgw _ypq_IPknEeiTcYU69R5pgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ypqYEPknEeiTcYU69R5pgw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ypqYEfknEeiTcYU69R5pgw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ypq_IPknEeiTcYU69R5pgw" name="captorssubsystem" type="_Ec-ckPjDEeiaJdi8hvsWCQ" association="_yppJ8PknEeiTcYU69R5pgw"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_z1AzQONiEei4jaA4gTAUQw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z1FrwONiEei4jaA4gTAUQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -209,4 +249,9 @@
   <Blocks:Block xmi:id="_BeqRUPjDEeiaJdi8hvsWCQ" base_Class="_BeeEEPjDEeiaJdi8hvsWCQ"/>
   <Blocks:Block xmi:id="_EdFKQPjDEeiaJdi8hvsWCQ" base_Class="_Ec-ckPjDEeiaJdi8hvsWCQ"/>
   <Blocks:Block xmi:id="_V1mVQPjDEeiaJdi8hvsWCQ" base_Class="_V1fAgPjDEeiaJdi8hvsWCQ"/>
+  <Blocks:Block xmi:id="_Oi92sPknEeiTcYU69R5pgw" base_Class="_OXRkEPknEeiTcYU69R5pgw"/>
+  <Blocks:Block xmi:id="_QOVzYPknEeiTcYU69R5pgw" base_Class="_QOK0QPknEeiTcYU69R5pgw"/>
+  <Blocks:Block xmi:id="_SGdyoPknEeiTcYU69R5pgw" base_Class="_SGXE8PknEeiTcYU69R5pgw"/>
+  <Blocks:Block xmi:id="_eUnKgPknEeiTcYU69R5pgw" base_Class="_eUenoPknEeiTcYU69R5pgw"/>
+  <Blocks:Block xmi:id="_lygfcPknEeiTcYU69R5pgw" base_Class="_lyZKsPknEeiTcYU69R5pgw"/>
 </xmi:XMI>
