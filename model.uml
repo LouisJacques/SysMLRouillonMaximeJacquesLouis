@@ -27,6 +27,37 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_d7FZMPjEEeiaJdi8hvsWCQ" name="COVCaptor1" type="_itszoPjEEeiaJdi8hvsWCQ"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_-wjvgPjGEeiaJdi8hvsWCQ" name="ElectricProdCaptor1" type="_A0vNwPjHEeiaJdi8hvsWCQ"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_BaDhUPjHEeiaJdi8hvsWCQ" name="ElectricConsoCaptor1" type="_Cs_I0PjHEeiaJdi8hvsWCQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_qgz2EPkxEeiTcYU69R5pgw" name="softwareSubSystem" type="_JZtu0PkwEeiTcYU69R5pgw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_LhTbgPkyEeiTcYU69R5pgw" name="moistureCaptor1" type="_Rs6CIPkyEeiTcYU69R5pgw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_WmBGIPkyEeiTcYU69R5pgw" name="WaterQuantityCaptor" type="_ZD0lUPkyEeiTcYU69R5pgw"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_71MH8PkxEeiTcYU69R5pgw" name="Cov">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_71OkMPkxEeiTcYU69R5pgw" role="_d7FZMPjEEeiaJdi8hvsWCQ"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_71OkMfkxEeiTcYU69R5pgw" role="_qgz2EPkxEeiTcYU69R5pgw"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_8ZV94PkxEeiTcYU69R5pgw" name="CO2">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_8ZXMAPkxEeiTcYU69R5pgw" role="_XmsC8PjEEeiaJdi8hvsWCQ"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_8ZXMAfkxEeiTcYU69R5pgw" role="_qgz2EPkxEeiTcYU69R5pgw"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_8zQ5wPkxEeiTcYU69R5pgw" name="Kw/h">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_8zSH4PkxEeiTcYU69R5pgw" role="_-wjvgPjGEeiaJdi8hvsWCQ"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_8zSH4fkxEeiTcYU69R5pgw" role="_qgz2EPkxEeiTcYU69R5pgw"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_9S74UPkxEeiTcYU69R5pgw" name="Heat °C">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_9S8fYPkxEeiTcYU69R5pgw" role="_xaU1kPjDEeiaJdi8hvsWCQ"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_9S8fYfkxEeiTcYU69R5pgw" role="_qgz2EPkxEeiTcYU69R5pgw"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_9y05UPkxEeiTcYU69R5pgw" name="Kw/h">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_9y1gYPkxEeiTcYU69R5pgw" role="_BaDhUPjHEeiaJdi8hvsWCQ"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_9y1gYfkxEeiTcYU69R5pgw" role="_qgz2EPkxEeiTcYU69R5pgw"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_cVPSwPkyEeiTcYU69R5pgw" name="water ">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_cVP50PkyEeiTcYU69R5pgw" role="_qgz2EPkxEeiTcYU69R5pgw"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_cVP50fkyEeiTcYU69R5pgw" role="_WmBGIPkyEeiTcYU69R5pgw"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_cynyUPkyEeiTcYU69R5pgw" name="moisture tx">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_cyoZYPkyEeiTcYU69R5pgw" role="_qgz2EPkxEeiTcYU69R5pgw"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_cyoZYfkyEeiTcYU69R5pgw" role="_LhTbgPkyEeiTcYU69R5pgw"/>
+      </ownedConnector>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_vompsOjzEei5zpVwH0izQQ" name="Block3"/>
     <packagedElement xmi:type="uml:Interaction" xmi:id="_1XTR4OjzEei5zpVwH0izQQ" name="Interaction1"/>
@@ -92,6 +123,7 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_MtqgYvjDEeiaJdi8hvsWCQ" name="powersubsystem" type="_BeeEEPjDEeiaJdi8hvsWCQ" aggregation="composite" association="_Mtp5UPjDEeiaJdi8hvsWCQ"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_NuE0gvjDEeiaJdi8hvsWCQ" name="displaysubsystem" type="_0oepEPjCEeiaJdi8hvsWCQ" aggregation="composite" association="_NuENcPjDEeiaJdi8hvsWCQ"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_YWNQ0PjDEeiaJdi8hvsWCQ" name="soundalertsubsystem" type="_V1fAgPjDEeiaJdi8hvsWCQ" aggregation="composite" association="_YWMpwPjDEeiaJdi8hvsWCQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_QbM0kvkwEeiTcYU69R5pgw" name="softwaresubsystem" type="_JZtu0PkwEeiTcYU69R5pgw" aggregation="composite" association="_QbMNgPkwEeiTcYU69R5pgw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_0oepEPjCEeiaJdi8hvsWCQ" name="DisplaySubSystem"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_BeeEEPjDEeiaJdi8hvsWCQ" name="PowerSubSystem" visibility="public"/>
@@ -102,6 +134,9 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_WDPxQ_knEeiTcYU69R5pgw" name="heatcaptor" type="_OXRkEPknEeiTcYU69R5pgw" aggregation="composite" association="_WDPxQPknEeiTcYU69R5pgw"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_yAwlAPknEeiTcYU69R5pgw" name="electricprodcaptor" type="_eUenoPknEeiTcYU69R5pgw" aggregation="composite" association="_yAuv0PknEeiTcYU69R5pgw"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_ypqYEvknEeiTcYU69R5pgw" name="electricconsocaptor" type="_lyZKsPknEeiTcYU69R5pgw" aggregation="composite" association="_yppJ8PknEeiTcYU69R5pgw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_gsy-UvkxEeiTcYU69R5pgw" name="softwaresubsystem" type="_JZtu0PkwEeiTcYU69R5pgw" association="_gsyXQPkxEeiTcYU69R5pgw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_JpciAvkyEeiTcYU69R5pgw" name="waterquantitycaptor" type="_FaLsQPkyEeiTcYU69R5pgw" aggregation="composite" association="_Jpb68PkyEeiTcYU69R5pgw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_KcaQA_kyEeiTcYU69R5pgw" name="moisturecaptor" type="_C4LCgPkyEeiTcYU69R5pgw" aggregation="composite" association="_KcaQAPkyEeiTcYU69R5pgw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_MNt1APjDEeiaJdi8hvsWCQ" memberEnd="_MNvDIfjDEeiaJdi8hvsWCQ _MNvqMPjDEeiaJdi8hvsWCQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MNucEPjDEeiaJdi8hvsWCQ" source="org.eclipse.papyrus">
@@ -168,6 +203,35 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_ypq_IPknEeiTcYU69R5pgw" name="captorssubsystem" type="_Ec-ckPjDEeiaJdi8hvsWCQ" association="_yppJ8PknEeiTcYU69R5pgw"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_JZtu0PkwEeiTcYU69R5pgw" name="SoftwareSubSystem"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_QbMNgPkwEeiTcYU69R5pgw" memberEnd="_QbM0kvkwEeiTcYU69R5pgw _QbM0k_kwEeiTcYU69R5pgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QbM0kPkwEeiTcYU69R5pgw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QbM0kfkwEeiTcYU69R5pgw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_QbM0k_kwEeiTcYU69R5pgw" name="alfred" type="_pWdiQPjCEeiaJdi8hvsWCQ" association="_QbMNgPkwEeiTcYU69R5pgw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_gsyXQPkxEeiTcYU69R5pgw" memberEnd="_gsy-UvkxEeiTcYU69R5pgw _gsy-U_kxEeiTcYU69R5pgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gsy-UPkxEeiTcYU69R5pgw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gsy-UfkxEeiTcYU69R5pgw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_gsy-U_kxEeiTcYU69R5pgw" name="captorssubsystem" type="_Ec-ckPjDEeiaJdi8hvsWCQ" association="_gsyXQPkxEeiTcYU69R5pgw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_C4LCgPkyEeiTcYU69R5pgw" name="MoistureCaptor"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_FaLsQPkyEeiTcYU69R5pgw" name="WaterQuantityCaptor"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Jpb68PkyEeiTcYU69R5pgw" memberEnd="_JpciAvkyEeiTcYU69R5pgw _JpciA_kyEeiTcYU69R5pgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JpciAPkyEeiTcYU69R5pgw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JpciAfkyEeiTcYU69R5pgw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_JpciA_kyEeiTcYU69R5pgw" name="captorssubsystem" type="_Ec-ckPjDEeiaJdi8hvsWCQ" association="_Jpb68PkyEeiTcYU69R5pgw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_KcaQAPkyEeiTcYU69R5pgw" memberEnd="_KcaQA_kyEeiTcYU69R5pgw _KcaQBPkyEeiTcYU69R5pgw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KcaQAfkyEeiTcYU69R5pgw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KcaQAvkyEeiTcYU69R5pgw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_KcaQBPkyEeiTcYU69R5pgw" name="captorssubsystem" type="_Ec-ckPjDEeiaJdi8hvsWCQ" association="_KcaQAPkyEeiTcYU69R5pgw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_Rs6CIPkyEeiTcYU69R5pgw" name="MoistureCaptor"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_ZD0lUPkyEeiTcYU69R5pgw" name="WaterQuantityCaptor"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_z1AzQONiEei4jaA4gTAUQw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z1FrwONiEei4jaA4gTAUQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -254,4 +318,7 @@
   <Blocks:Block xmi:id="_SGdyoPknEeiTcYU69R5pgw" base_Class="_SGXE8PknEeiTcYU69R5pgw"/>
   <Blocks:Block xmi:id="_eUnKgPknEeiTcYU69R5pgw" base_Class="_eUenoPknEeiTcYU69R5pgw"/>
   <Blocks:Block xmi:id="_lygfcPknEeiTcYU69R5pgw" base_Class="_lyZKsPknEeiTcYU69R5pgw"/>
+  <Blocks:Block xmi:id="_JZ7KMPkwEeiTcYU69R5pgw" base_Class="_JZtu0PkwEeiTcYU69R5pgw"/>
+  <Blocks:Block xmi:id="_C4S-UPkyEeiTcYU69R5pgw" base_Class="_C4LCgPkyEeiTcYU69R5pgw"/>
+  <Blocks:Block xmi:id="_FaU2MPkyEeiTcYU69R5pgw" base_Class="_FaLsQPkyEeiTcYU69R5pgw"/>
 </xmi:XMI>
