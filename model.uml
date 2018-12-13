@@ -11,7 +11,6 @@
     <packagedElement xmi:type="uml:Actor" xmi:id="_OrBQUOjdEeikffRf6AylkQ" name="Actor1"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_qaiEUOjdEeizX7ayGSuUQA" name="Block1"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_S37bAOjwEei6YcZqZ21oKA" name="TEt"/>
-
     <packagedElement xmi:type="uml:Class" xmi:id="_iVK6MOjyEei6YcZqZ21oKA" name="QualitéAir"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_iVLhQOjyEei6YcZqZ21oKA" name="ProdElec"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_iVMIUOjyEei6YcZqZ21oKA" name="Alertes"/>
@@ -169,13 +168,11 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_ypq_IPknEeiTcYU69R5pgw" name="captorssubsystem" type="_Ec-ckPjDEeiaJdi8hvsWCQ" association="_yppJ8PknEeiTcYU69R5pgw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_XtcdYO5fEei-e6YrClflkw" name="SantéMaison">
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_iVMIUOjyEei6YcZqZ21oKA" name="Alertes"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_iVK6MOjyEei6YcZqZ21oKA" name="QualitéAir"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_iVMvYejyEei6YcZqZ21oKA" name="TauxCO2"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_iVN9gOjyEei6YcZqZ21oKA" name="Humidité"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_iVMvYOjyEei6YcZqZ21oKA" name="Tempérarure"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_KAOKUO5dEei-e6YrClflkw" name="Discrétion"/>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_KQCvAO5dEei-e6YrClflkw" name="SmartPhone"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_iVMIUejyEei6YcZqZ21oKA" name="PrévisionsJournée"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_iVNWcejyEei6YcZqZ21oKA" name="PrévisionsSemaine"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_Rwp2MO5cEei-e6YrClflkw" name="ConsoElec"/>
@@ -188,7 +185,8 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_p4z-cO5bEei-e6YrClflkw" name="IndicInstant"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_JTIa0O5dEei-e6YrClflkw" name="Conseils"/>
-
+    <packagedElement xmi:type="uml:Class" xmi:id="_KQCvAO5dEei-e6YrClflkw" name="SmartPhone"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_iVMIUOjyEei6YcZqZ21oKA" name="Alertes"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_z1AzQONiEei4jaA4gTAUQw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_z1FrwONiEei4jaA4gTAUQw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
